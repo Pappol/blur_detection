@@ -1,4 +1,3 @@
 # Blur detection using 2D Discrete Fourier Transform (DFT)
-Hint: Explain the theory of 2D DFT. Explain how it is useful and/or some examples of applications.
-Show how to detect if an image is blurry or not. in Explain and perform some experiments with your
-own images.
+
+This project investigates the use of the 2D Discrete Fourier Transform (DFT) for the detection of blur in digital images. The 2D DFT transforms an image from the spatial to the frequency domain, unveiling the image's frequency components. Since blurring reduces high-frequency content, the absence of such components in the transformed image indicates blur. By examining the energy spectrum obtained from the DFT, one can quantify the degree of blur. The experiment involved applying the 2D DFT to various images, calculating the high-frequency component ratios, and determining the blurriness of each image. This method's efficacy was validated with sharp and blurred images, demonstrating the 2D DFT's potential as a robust tool for blur detection in image processing applications.
